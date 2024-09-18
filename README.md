@@ -1,7 +1,17 @@
 # Praktikum Pemrograman Web 2
 <h2>Konsep Object Oriented Programing </h2>
 
-<p>OOP atau Object Oriented Programming merupakan pemograman yang beroritentasi pada objek yang didalamnya terdapat konsep class dan Objek. Dengan memanfaatkan class dan objek, kode dapat diorganisir dengan baik dan dapat digunakan kembali.</p>
+<p>OOP atau Object Oriented Programming merupakan pemograman yang beroritentasi pada objek yang didalamnya terdapat konsep class dan Objek. Dengan memanfaatkan class dan objek, kode dapat diorganisir dengan baik dan dapat digunakan kembali. Konsep dasar OOP meliputi encapsulation, Inheritance, Polymorphism dan Abstraction. Cara kerja OOP yaitu membangun program dari gabungan objek objek yang saling berhubungan dan disusun menjadi satu kesatuan.</p>
+
+<p><b>Kelebihan OOP :</b></p>
+<p>1. Skalabilitas</p>
+<p>2. Pengembangan Paralel</p>
+<p>3. Dapat Digunakan Kembali</p>
+
+<p><b>Kekurangan OOP:</b></p>
+<p>1. Kemungkinan Duplikasi</p>
+<p>2. Memerlukan data management yang ketat</p>
+<p>3. Kurang ramah spesifikasi perangkat</p>
 
 <h3>1. Class dan Objek dalam PHP</h3>
 <h3>a. Class (kelas)</h3>
@@ -27,7 +37,7 @@ Berikut merupakan objek dari class mahasiswa
 
 
 <h3>b. Inheritance (pewarisan)</h3>
-<p>Inheritance merupakan metode yang memungkinkan suatu class mewarisi metode dan atribut dari class lain. Dalam inheritance class yang mewarisi disebut dengan induk class atau parent. Sedangkan class yang diwarisi merupakan child. Untuk menggunakan metode inheritance maka atribut dalam induk class atau parent visability atributnya harus protected. </p>
+<p>Inheritance merupakan metode yang memungkinkan suatu class mewarisi metode dan atribut dari class lain. Dalam inheritance class yang mewarisi disebut dengan induk class atau parent. Sedangkan class yang diwarisi merupakan child. Untuk menggunakan metode inheritance maka atribut dalam induk class atau parent visability atributnya harus protected. Inheritance memungkinkan terciptanya hubungan antara objek yang memiliki karakteristik dan perilaku yang sama. </p>
 
 ![image](https://github.com/user-attachments/assets/3dd3e864-1121-454f-8eb4-51eb628bb9b0)
 
@@ -42,7 +52,7 @@ Berikut merupakan objek dari class mahasiswa
 
 
 <h3>d. Astraction</h3>
-<p>Dalam konsep OOP abstraction berfungsi untuk menyembunyikan detail implementasi dan menampilkan fungsi yang penting. Ini dilakukan dengan menggunakan abstract class.</p>
+<p>Dalam konsep OOP abstraction berfungsi untuk menyembunyikan detail implementasi dan menampilkan fungsi yang penting. Ini dilakukan dengan menggunakan abstract class. Abstraction bisa disebut sebagai penyembunyian latar belakang secara rinci dan hanya menampilkan informasi yang diperlukan saja.</p>
 
 ![image](https://github.com/user-attachments/assets/d25e1ce7-f500-4ec1-9d13-7ea55abaeaf3)
 
