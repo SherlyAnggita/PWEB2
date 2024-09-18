@@ -1,5 +1,5 @@
 # Praktikum Pemrograman Web 2
-<h2>Konsep Class dan Object dalam PHP </h2>
+<h2>Konsep Object Oriented Programing </h2>
 
 <p>OOP atau Object Oriented Programming merupakan pemograman yang beroritentasi pada objek yang didalamnya terdapat konsep class dan Objek. Dengan memanfaatkan class dan objek, kode dapat diorganisir dengan baik dan dapat digunakan kembali.</p>
 
@@ -19,6 +19,10 @@
 <h3>b. Inheritance (pewarisan)</h3>
 <p>Inheritance merupakan metode yang memungkinkan suatu class mewarisi metode dan atribut dari class lain. Dalam inheritance class yang mewarisi disebut dengan induk class atau parent. Sedangkan class yang diwarisi merupakan child. </p>
 
-<h3>c. Polymorphism (memiliki banyak bentuk)
+<h3>c. Polymorphism (memiliki banyak bentuk)</h3>
+<p>Polymorphism merupakan konsep dalam OOP yang membungkinkan objek, variabel atau method untuk memiliki berbagai bentuk. Polymorphism juga merupakan class yang memiliki metode sama namun imlplementasi dalam class berbeda.</p>
+
+<h3>d. Astraction</h3>
+<p>Dalam konsep OOP abstraction berfungsi untuk menyembunyikan detail implementasi dan menampilkan fungsi yang penting. Ini dilakukan dengan menggunakan abstract class.</p>
 
 
