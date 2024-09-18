@@ -1,12 +1,11 @@
 <?php
-
 class Mahasiswa { //membuat class dengan nama mahasiswa
     //atribut class menyimpan data dari objek
     public $nama; 
     public $nim;
     public $jurusan;
 
-    //implementasi constract untuk menginisialisasi atribute
+//implementasi constract untuk menginisialisasi atribute
 public function __construct($nama, $nim, $jurusan)
 {
     $this->nama = $nama;
