@@ -51,7 +51,7 @@ Berikut merupakan objek dari class mahasiswa
 ![image](https://github.com/user-attachments/assets/ee3a1513-00ed-4142-a1a9-bcee78c69516)
 
 
-<h3>d. Astraction</h3>
+<h3>d. Abstraction</h3>
 <p>Dalam konsep OOP abstraction berfungsi untuk menyembunyikan detail implementasi dan menampilkan fungsi yang penting. Ini dilakukan dengan menggunakan abstract class. Abstraction bisa disebut sebagai penyembunyian latar belakang secara rinci dan hanya menampilkan informasi yang diperlukan saja.</p>
 
 ![image](https://github.com/user-attachments/assets/d25e1ce7-f500-4ec1-9d13-7ea55abaeaf3)
