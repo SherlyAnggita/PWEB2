@@ -20,6 +20,7 @@
 
 ![class](https://github.com/user-attachments/assets/eab5877b-0fe2-476e-b8f3-7c2c668c6734)
 
+
 <h3>b. Object (objek)</h3>
 <p> Object merupakan intansiasi dari class. Object terdiri dari sekumpulan method yang menampilkan perilaku. Objek dapat berisikan nilai nilai yang terdapat pada atribut dalam class. </p>
 Berikut merupakan objek dari class mahasiswa
@@ -33,17 +34,28 @@ Berikut merupakan objek dari class mahasiswa
 <h3>a. Encapsulation (pembungkusan)</h3>
 <p>Encapsulation merupakan konsep dasar dalam OOP.Encapsulation bertujuan mencegah akses yang tidak sah, menyembunyikan implementasi objek yang menjaga integritas data dan mencegah modifikasi data yang tidak disengaja.</p>
 
-![image](https://github.com/user-attachments/assets/3f99e4b5-cb74-4a42-ba50-c037440b6d1e)
+![image](https://github.com/user-attachments/assets/cd4156c6-7723-4e68-8f43-6418c79f771d)
 
+![image](https://github.com/user-attachments/assets/e8fd05c7-0ec9-4953-bfed-b76ac87b4bc3)
+
+
+![image](https://github.com/user-attachments/assets/1d71f300-c180-4452-8ee9-476f7da52dc5)
+
+<p>Gambar diatas merupakan output dari class yang ditampilkan dengan memanggil metode tampilData()</p>
 
 <h3>b. Inheritance (pewarisan)</h3>
 <p>Inheritance merupakan metode yang memungkinkan suatu class mewarisi metode dan atribut dari class lain. Dalam inheritance class yang mewarisi disebut dengan induk class atau parent. Sedangkan class yang diwarisi merupakan child. Untuk menggunakan metode inheritance maka atribut dalam induk class atau parent visability atributnya harus protected. Inheritance memungkinkan terciptanya hubungan antara objek yang memiliki karakteristik dan perilaku yang sama. </p>
 
-![image](https://github.com/user-attachments/assets/3dd3e864-1121-454f-8eb4-51eb628bb9b0)
+![image](https://github.com/user-attachments/assets/cb511d0a-f418-4d6d-be53-46612c2315b3)
 
 
-![image](https://github.com/user-attachments/assets/1446983c-a170-4876-879e-10fd4167614b)
+![image](https://github.com/user-attachments/assets/5812ae1e-ed91-4494-a0a2-adf4053c654a)
 
+
+
+![image](https://github.com/user-attachments/assets/1ecaa59e-5e89-4544-badb-1b35fb654252)
+
+<p>Output diatas merupakan class student dan teacher class child dari class Person dimana atribute nama yang merupakan warisan dari class Person. </p>
 
 <h3>c. Polymorphism (memiliki banyak bentuk)</h3>
 <p>Polymorphism merupakan konsep dalam OOP yang membungkinkan objek, variabel atau method untuk memiliki berbagai bentuk. Polymorphism juga merupakan class yang memiliki metode sama namun imlplementasi dalam class berbeda.</p>
@@ -55,4 +67,30 @@ Berikut merupakan objek dari class mahasiswa
 <p>Dalam konsep OOP abstraction berfungsi untuk menyembunyikan detail implementasi dan menampilkan fungsi yang penting. Ini dilakukan dengan menggunakan abstract class. Abstraction bisa disebut sebagai penyembunyian latar belakang secara rinci dan hanya menampilkan informasi yang diperlukan saja.</p>
 
 ![image](https://github.com/user-attachments/assets/d25e1ce7-f500-4ec1-9d13-7ea55abaeaf3)
+
+![image](https://github.com/user-attachments/assets/7c78fc98-c4fa-4f1f-9fb8-358f384d49cc)
+<p>Gambar diatas merupakan output dari abstract class yang ditampilkan dengan memanggil metode getCourseDetails().</p>
+
+
+<h3>Output Jobsheet1</h3>
+
+![image](https://github.com/user-attachments/assets/3afd2fdc-4709-42ae-8e46-63cf477c1855)
+
+<h3>Output tugas 1 (jobsheet1)</h3>
+
+![image](https://github.com/user-attachments/assets/28f1822c-c74b-495d-912a-cbac9bcc8ef3)
+
+
+<h3>Output Jobsheet2</h3>
+
+![image](https://github.com/user-attachments/assets/523cc13f-d257-4d56-bb1a-d56f890d08d2)
+
+<h3>Output Jobsheet3</h3>
+
+![image](https://github.com/user-attachments/assets/e3d7fe4e-260d-4904-8d6d-7e5a804f97fb)
+
+<h3>Output tugas 3 (jobsheet3)</h3>
+
+![image](https://github.com/user-attachments/assets/868b5c15-b6c8-402f-bc50-288e0a8857e1)
+
 
