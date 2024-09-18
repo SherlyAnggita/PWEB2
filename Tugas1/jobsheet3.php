@@ -5,7 +5,7 @@
 class Person { //class person sebagai induk class
     protected $name;
 
-public function __construct($name)
+public function __construct($name) //implementasi construct untuk menginisialisasi atribut
 {
     $this->name = $name;
 }
@@ -18,7 +18,7 @@ public function getName()
 
 //class student yang mewarisi class Person
 class Student extends Person {
-    private $studentID;
+    private $studentID; //encapsulation atribut menjadi private
 
 public function __construct($nama, $studentID)
 {
@@ -49,7 +49,7 @@ public function setName($name) //metode setter untuk attribute name
 
 //Polymorphism
 class Teacher extends Person { //class teacher mewarisi class Person
-    private $teacherID;
+    private $teacherID; //encapasulation atribut class teacher menjadi private
 
 public function __construct($nama, $teacherID)
 {
