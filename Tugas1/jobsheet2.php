@@ -155,7 +155,7 @@ public function tampilData() //metode tampil data abstract_dosen
 class abstract_mahasiswa extends abstractPengguna{
 public function __construct($nama)
     {
-        parent::__construct($nama);
+        parent::__construct($nama); //memanggil atribut class turunan yang diwariskan dari class abstractPengguna
         $this->nama = $nama;
     }
 
@@ -185,19 +185,19 @@ $pengguna = new Pengguna ("Adi Wijaya");
 echo $pengguna->getNama();
 echo $pengguna->aksesFitur();
 
-
+//objek class Dosen
 $dosen = new Dosen ("Adi Wijaya", "Matematika");
-echo $dosen->tampilData();
-echo $dosen->aksesFitur();
+echo $dosen->tampilData(); //Menampilkan data dosen
+echo $dosen->aksesFitur(); 
 
 //abstraction
-echo "<b>ABSTRACTION</b><br><hr>";
+//objek class abstract_dosen
 $dosen1 = new abstract_dosen("Daniel", "Bahasa Indonesia");
 echo $dosen1->tampilData() ."<br>";
 echo $dosen1->aksesFitur();
 
+//objek class abstract_mahasiswa
 $mhs1 = new abstract_mahasiswa("Nami");
-
 echo $mhs1->tampilData() ."<br>";
 echo $mhs1->aksesFitur();
 
